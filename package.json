@@ -1,0 +1,22 @@
+{
+  "name": "express-typescript-bootstrap",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./dist/bin/www",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-route-versioning": "^1.5.0",
+    "gulp-develop-server": "^0.5.2",
+    "morgan": "~1.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.5",
+    "gulp-uglify": "^1.5.3"
+  }
+}
